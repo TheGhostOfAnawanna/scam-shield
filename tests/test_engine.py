@@ -65,3 +65,33 @@ if __name__ == "__main__":
     test_legit_scores_low()
     test_separation()
     print("ALL ENGINE TESTS PASSED ✅")
+
+# --- v2 additions: echo discount + dominance rule (2026-09-04) ---
+
+def test_echo_discount_lowers_victim():
+    """Victim echoing scammer phrases in short/interrogative turns scores lower."""
+    scammer = {"speaker": "A", "text": "This is officer Daniels. You must buy gift cards right now. "
+               "Do not tell anyone. Keep this between us. Pay the fine immediately or legal action will be taken."}
+    victim_echo = {"speaker": "B", "text": "Buy gift cards?"}
+    d = {"text": scammer["text"] + " " + victim_echo["text"],
+         "utterances": [scammer, victim_echo],
+         "sentiment_analysis_results": []}
+    a = score_transcript(d)
+    spk = {s["speaker"]: s for s in a["speakers"]}
+    assert spk["A"]["score"] > spk["B"]["score"], f"caller {spk['A']['score']} vs victim {spk['B']['score']}"
+
+def test_dominance_rule_uses_speaker_evidence():
+    """A concentrated pressure script on one speaker lifts the call verdict."""
+    utts = [{"speaker": "A",
+             "text": "This is officer Daniels from the internal revenue service. There is an arrest warrant in your name. "
+                     "You must pay the tax fine right now by gift card. Do not tell anyone. Keep this between us. "
+                     "Do not hang up. Stay on the line. Do not verify this with your bank."},
+            {"speaker": "B", "text": "Oh no. What do I do?"}]
+    d = {"text": " ".join(u["text"] for u in utts), "utterances": utts,
+         "sentiment_analysis_results": [{"speaker": "B", "text": "Oh no", "sentiment": "NEGATIVE"}]}
+    a = score_transcript(d)
+    assert a["score"] >= 70 and a["verdict"] in ("SCAM", "LIKELY SCAM"), f"{a['score']} {a['verdict']}"
+
+test_echo_discount_lowers_victim()
+test_dominance_rule_uses_speaker_evidence()
+print("v2 tests (echo discount, dominance) PASSED ✅")
