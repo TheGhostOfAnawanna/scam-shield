@@ -68,7 +68,8 @@
 const REPORTS = [
   {f:"report_scam.json", audio:"demo_scam_call.wav"},
   {f:"report_legit.json", audio:"demo_legit_call.wav"},
-  {f:"report_tech.json"}, {f:"report_grand.json"}
+  {f:"report_tech.json", audio:"demo_tech_support.wav"},
+  {f:"report_grand.json", audio:"demo_grandparent.wav"}
 ];
 const grid = document.getElementById("grid");
 REPORTS.forEach(r => {
@@ -82,7 +83,7 @@ REPORTS.forEach(r => {
       </div>
       <h2>${d.title}</h2><div class="sub">${d.subtitle}</div>
       ${r.audio ? `<audio controls preload="none" style="width:100%;margin-top:10px" src="${r.audio}"></audio>
-      <div class="sub" style="margin-top:4px">▶ the actual call input</div>` : ""}
+      <div class="sub" style="margin-top:4px">▶ the call input (fixture-only cards use a single-voice render)</div>` : ""}
       <div class="detail">
         <div class="speakers">${d.speakers.map(s => `
           <div class="spk"><b>Speaker ${s.speaker}</b>
