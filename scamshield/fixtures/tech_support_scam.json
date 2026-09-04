@@ -1,0 +1,80 @@
+{
+ "text": "Your computer has been compromised. I am calling from Microsoft technical support. Our system detected a virus and suspicious network activity from your device. You must grant me remote access right now so I can remove it. There is a one time repair fee of three hundred dollars, payable immediately. I can only accept a bank transfer today. Do not contact Microsoft support directly, they will not know about this case. Please keep this between us.",
+ "utterances": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is Kevin from Microsoft technical support department. Our system detected a virus on your computer.",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "A virus? Are you sure?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "Yes, there is suspicious network activity from your device right now. Your computer has been compromised. You must grant me remote access immediately so I can remove it before your files are encrypted.",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "There is a one time repair fee of three hundred dollars payable immediately. I can only accept a bank transfer today.",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "Can I call Microsoft back to confirm this?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "Do not contact Microsoft support directly, they will not know about this case. Please keep this between us. Stay on the line.",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  }
+ ],
+ "sentiment_analysis_results": [
+  {
+   "speaker": "A",
+   "text": "virus detected",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "A virus? Are you sure?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "compromised immediately",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "repair fee bank transfer",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "Can I call Microsoft back?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "keep this between us stay on line",
+   "sentiment": "NEUTRAL",
+   "confidence": 0.98
+  }
+ ],
+ "audio_duration": 42
+}

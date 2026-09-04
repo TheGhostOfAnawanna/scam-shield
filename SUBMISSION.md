@@ -45,8 +45,10 @@ Scam Shield analyzes a phone recording and produces an explainable risk verdict:
 ### Verified results (real AssemblyAI runs)
 | Call | Score | Verdict |
 |---|---|---|
-| Synthetic two-voice IRS impostor call | **74/100** | 🔴 SCAM (Government impostor, 51%) |
-| Synthetic dental-appointment call | **0/100** | 🟢 CLEAN |
+| Synthetic two-voice IRS impostor call (real AssemblyAI run) | **90/100** | 🔴 SCAM (Government impostor) |
+| Synthetic dental-appointment call (real AssemblyAI run) | **0/100** | 🟢 CLEAN |
+| Tech-support impostor (bundled fixture) | **88/100** | 🔴 SCAM (Tech support scam) |
+| Grandparent/emergency scam (bundled fixture) | **68/100** | 🟠 LIKELY SCAM |
 
 Scammer turns score 100/100; the victim — even when panicking and echoing the
 scammer's words — is correctly down-weighted (echo/panic discount) instead of

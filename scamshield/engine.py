@@ -44,9 +44,11 @@ AUTHORITY = [
     (r"\b(officer|agent|detective|inspector|investigator)\b", 12),
     (r"\b(government|federal|police department|sheriff|law enforcement)\b", 14),
     (r"\b(case number|badge number|file number|reference number)\b", 14),
-    (r"\b(department of|bureau of|administration|internal revenue)\b", 12),
+    (r"\b(department of|bureau of|administration|internal revenue|technical support|support department)\b", 12),
     (r"\b(this call is (?:being )?(?:recorded|monitored))\b", 10),
     (r"\b(arrest warrant|warrant (?:out|for|in your name)|you will be arrested)\b", 24),
+    (r"\b(your (?:computer|device|account|network) (?:has been|was|is) (?:compromised|hacked|infected|breached))\b", 18),
+    (r"\b(virus (?:detected|on your)|suspicious (?:network )?activity|remote access)\b", 14),
 ]
 
 PAYMENT = [
@@ -222,6 +224,14 @@ def analyze(transcript: dict[str, Any]) -> "Analysis":
         weighted += pts
 
     score = int(min(max(round(weighted), 0), 100))
+
+    # Dominance rule: when one speaker runs an unambiguous pressure script,
+    # the call inherits their risk (two-voice calls split evidence across
+    # speakers, which the family-cap average under-reports).
+    best_speaker = max((s.score for s in speakers.values()), default=0)
+    if best_speaker >= 45:
+        score = max(score, int(0.85 * best_speaker + 10 * scen_conf))
+
     verdict = _label(score)
 
     return Analysis(

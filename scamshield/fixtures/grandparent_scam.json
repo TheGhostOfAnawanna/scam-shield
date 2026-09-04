@@ -1,0 +1,68 @@
+{
+ "text": "Grandma, it's me! I'm in trouble. I was arrested last night and I need bail money right now. Please don't tell mom and dad, they would kill me. The lawyer says wire the money by courier before noon today. Please keep this between us, grandma. I'm so scared.",
+ "utterances": [
+  {
+   "speaker": "A",
+   "text": "Grandma? It's me, your favorite grandchild. I'm in big trouble.",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "Oh no, honey, what happened?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "I was arrested last night and I need bail money right now. The lawyer says wire the money by courier before noon today, or I stay in jail over the weekend.",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "How much do you need?",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "Two thousand dollars. Please don't tell mom and dad, they would kill me. Please keep this between us, grandma. I'm so scared and I can't talk long, an officer is coming.",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  }
+ ],
+ "sentiment_analysis_results": [
+  {
+   "speaker": "A",
+   "text": "in big trouble",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "oh no what happened",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "arrested bail money right now",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "B",
+   "text": "how much",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  },
+  {
+   "speaker": "A",
+   "text": "don't tell mom keep this between us scared",
+   "sentiment": "NEGATIVE",
+   "confidence": 0.98
+  }
+ ],
+ "audio_duration": 38
+}

@@ -90,8 +90,9 @@ AssemblyAI batch API → engine):
 
 | Call | Score | Verdict |
 |---|---|---|
-| `demo_scam_call.wav` (IRS impostor, 2 speakers) | **74/100** | 🔴 SCAM (Government impostor 51%) |
+| `demo_scam_call.wav` (IRS impostor, 2 speakers) | **90/100** | 🔴 SCAM (Government impostor) |
 | `demo_legit_call.wav` (dental appointment) | **0/100** | 🟢 CLEAN |
+| `tech_support_scam` / `grandparent_scam` fixtures | **88 / 68** | 🔴 SCAM / 🟠 LIKELY SCAM |
 
 Engine unit tests: `python3 tests/test_engine.py` → ALL PASSED.
 Offline fixtures: `scamshield/fixtures/` (bundled transcripts incl. real API output).
