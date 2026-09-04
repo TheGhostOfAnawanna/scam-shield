@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Plain-language verdict rendering for humans (and grandmas).
 
 explain(analysis_or_dict) -> str  — the CLI contract.

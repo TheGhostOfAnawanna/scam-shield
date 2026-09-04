@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Known scam archetypes — linguistic fingerprints.
 
 Each scenario lists marker regexes and weights. Matching raises confidence that

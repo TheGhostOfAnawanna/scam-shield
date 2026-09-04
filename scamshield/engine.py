@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Scam Shield scoring engine.
 
 Five weighted signal families combine into a 0-100 call-level risk score.

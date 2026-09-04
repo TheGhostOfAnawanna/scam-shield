@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Unit tests for the Scam Shield engine (no API calls needed).
 
 Run: python3 -m pytest tests/ -q   (or python3 tests/test_engine.py)

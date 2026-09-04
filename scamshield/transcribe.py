@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """AssemblyAI batch transcription client.
 
 Uses the verified free-tier mechanics:
