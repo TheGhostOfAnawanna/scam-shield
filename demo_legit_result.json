@@ -1,0 +1,30 @@
+{
+  "score": 0,
+  "verdict": "CLEAN",
+  "scenario": null,
+  "scenario_confidence": 0.0,
+  "signals": [],
+  "negations": [],
+  "speakers": [
+    {
+      "speaker": "A",
+      "score": 0,
+      "role": "likely victim/caller",
+      "word_count": 45,
+      "hits": []
+    },
+    {
+      "speaker": "B",
+      "score": 0,
+      "role": "likely victim/caller",
+      "word_count": 11,
+      "hits": []
+    }
+  ],
+  "victim_negative_turns": 0,
+  "total_negative_turns": 0,
+  "legit_signals": [
+    "\\b(no (?:payment|purchase|fee|action) (?:is )?(?:required|needed)|courtesy call)\\b"
+  ],
+  "explanation": "This call reads as routine: normal rhythm, no pressure tactics, no unusual payment demands."
+}

@@ -1,0 +1,895 @@
+{
+ "text": "Hello, this is [PERSON_NAME] from City Dental. I'm calling to remind you of your appointment on Thursday at 3 PM. Oh yes, Thursday at 3 works for me. See you then! Wonderful! Your appointment is confirmed. No payment is needed today, and no action is required. Thank you for choosing City Dental. Have a great day!",
+ "utterances": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is [PERSON_NAME] from City Dental. I'm calling to remind you of your appointment on Thursday at 3 PM.",
+   "confidence": 0.996631,
+   "start": 32,
+   "end": 5740,
+   "words": [
+    {
+     "text": "Hello,",
+     "start": 32,
+     "end": 289,
+     "confidence": 0.9945755,
+     "speaker": "A"
+    },
+    {
+     "text": "this",
+     "start": 594,
+     "end": 755,
+     "confidence": 0.99996054,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 755,
+     "end": 836,
+     "confidence": 0.9999969,
+     "speaker": "A"
+    },
+    {
+     "text": "[PERSON_NAME]",
+     "start": 836,
+     "end": 1222,
+     "confidence": 0.9956136,
+     "speaker": "A"
+    },
+    {
+     "text": "from",
+     "start": 1222,
+     "end": 1398,
+     "confidence": 0.99991536,
+     "speaker": "A"
+    },
+    {
+     "text": "City",
+     "start": 1398,
+     "end": 1688,
+     "confidence": 0.9996488,
+     "speaker": "A"
+    },
+    {
+     "text": "Dental.",
+     "start": 1720,
+     "end": 2009,
+     "confidence": 0.99900156,
+     "speaker": "A"
+    },
+    {
+     "text": "I'm",
+     "start": 2363,
+     "end": 2508,
+     "confidence": 0.9998043,
+     "speaker": "A"
+    },
+    {
+     "text": "calling",
+     "start": 2524,
+     "end": 2813,
+     "confidence": 0.9999932,
+     "speaker": "A"
+    },
+    {
+     "text": "to",
+     "start": 2846,
+     "end": 2942,
+     "confidence": 0.9999713,
+     "speaker": "A"
+    },
+    {
+     "text": "remind",
+     "start": 2942,
+     "end": 3328,
+     "confidence": 0.99999595,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 3328,
+     "end": 3457,
+     "confidence": 0.999995,
+     "speaker": "A"
+    },
+    {
+     "text": "of",
+     "start": 3473,
+     "end": 3569,
+     "confidence": 0.9999763,
+     "speaker": "A"
+    },
+    {
+     "text": "your",
+     "start": 3569,
+     "end": 3682,
+     "confidence": 0.99998474,
+     "speaker": "A"
+    },
+    {
+     "text": "appointment",
+     "start": 3714,
+     "end": 4212,
+     "confidence": 0.99996483,
+     "speaker": "A"
+    },
+    {
+     "text": "on",
+     "start": 4212,
+     "end": 4325,
+     "confidence": 0.99996626,
+     "speaker": "A"
+    },
+    {
+     "text": "Thursday",
+     "start": 4373,
+     "end": 4920,
+     "confidence": 0.99997246,
+     "speaker": "A"
+    },
+    {
+     "text": "at",
+     "start": 4936,
+     "end": 5081,
+     "confidence": 0.9999268,
+     "speaker": "A"
+    },
+    {
+     "text": "3",
+     "start": 5081,
+     "end": 5322,
+     "confidence": 0.99998903,
+     "speaker": "A"
+    },
+    {
+     "text": "PM.",
+     "start": 5322,
+     "end": 5740,
+     "confidence": 0.95825326,
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "speaker": "B",
+   "text": "Oh yes, Thursday at 3 works for me. See you then!",
+   "confidence": 0.9888264,
+   "start": 5740,
+   "end": 10290,
+   "words": [
+    {
+     "text": "Oh",
+     "start": 6608,
+     "end": 6624,
+     "confidence": 0.9997949,
+     "speaker": "B"
+    },
+    {
+     "text": "yes,",
+     "start": 6849,
+     "end": 7187,
+     "confidence": 0.99323696,
+     "speaker": "B"
+    },
+    {
+     "text": "Thursday",
+     "start": 7332,
+     "end": 7830,
+     "confidence": 0.99993205,
+     "speaker": "B"
+    },
+    {
+     "text": "at",
+     "start": 7975,
+     "end": 8136,
+     "confidence": 0.9997534,
+     "speaker": "B"
+    },
+    {
+     "text": "3",
+     "start": 8136,
+     "end": 8425,
+     "confidence": 0.9999925,
+     "speaker": "B"
+    },
+    {
+     "text": "works",
+     "start": 8457,
+     "end": 8795,
+     "confidence": 0.99619126,
+     "speaker": "B"
+    },
+    {
+     "text": "for",
+     "start": 8795,
+     "end": 8924,
+     "confidence": 0.9999496,
+     "speaker": "B"
+    },
+    {
+     "text": "me.",
+     "start": 8972,
+     "end": 9229,
+     "confidence": 0.9897789,
+     "speaker": "B"
+    },
+    {
+     "text": "See",
+     "start": 9454,
+     "end": 9824,
+     "confidence": 0.9996718,
+     "speaker": "B"
+    },
+    {
+     "text": "you",
+     "start": 9824,
+     "end": 10001,
+     "confidence": 0.99998903,
+     "speaker": "B"
+    },
+    {
+     "text": "then!",
+     "start": 10001,
+     "end": 10290,
+     "confidence": 0.8884885,
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "speaker": "A",
+   "text": "Wonderful! Your appointment is confirmed. No payment is needed today, and no action is required. Thank you for choosing City Dental. Have a great day!",
+   "confidence": 0.99621445,
+   "start": 10290,
+   "end": 19182,
+   "words": [
+    {
+     "text": "Wonderful!",
+     "start": 11191,
+     "end": 11561,
+     "confidence": 0.9357547,
+     "speaker": "A"
+    },
+    {
+     "text": "Your",
+     "start": 11834,
+     "end": 11963,
+     "confidence": 0.9996313,
+     "speaker": "A"
+    },
+    {
+     "text": "appointment",
+     "start": 11995,
+     "end": 12590,
+     "confidence": 0.9999918,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 12590,
+     "end": 12670,
+     "confidence": 0.99998164,
+     "speaker": "A"
+    },
+    {
+     "text": "confirmed.",
+     "start": 12734,
+     "end": 13313,
+     "confidence": 0.9980307,
+     "speaker": "A"
+    },
+    {
+     "text": "No",
+     "start": 13474,
+     "end": 13683,
+     "confidence": 0.9998958,
+     "speaker": "A"
+    },
+    {
+     "text": "payment",
+     "start": 13683,
+     "end": 14117,
+     "confidence": 0.9999943,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 14117,
+     "end": 14198,
+     "confidence": 0.9999875,
+     "speaker": "A"
+    },
+    {
+     "text": "needed",
+     "start": 14278,
+     "end": 14583,
+     "confidence": 0.99998677,
+     "speaker": "A"
+    },
+    {
+     "text": "today,",
+     "start": 14583,
+     "end": 14857,
+     "confidence": 0.9972268,
+     "speaker": "A"
+    },
+    {
+     "text": "and",
+     "start": 15371,
+     "end": 15452,
+     "confidence": 0.9999732,
+     "speaker": "A"
+    },
+    {
+     "text": "no",
+     "start": 15532,
+     "end": 15580,
+     "confidence": 0.9996056,
+     "speaker": "A"
+    },
+    {
+     "text": "action",
+     "start": 15693,
+     "end": 15982,
+     "confidence": 0.999874,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 16031,
+     "end": 16175,
+     "confidence": 0.9999851,
+     "speaker": "A"
+    },
+    {
+     "text": "required.",
+     "start": 16175,
+     "end": 16690,
+     "confidence": 0.99987817,
+     "speaker": "A"
+    },
+    {
+     "text": "Thank",
+     "start": 16819,
+     "end": 17076,
+     "confidence": 0.99977404,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 17076,
+     "end": 17220,
+     "confidence": 0.9999939,
+     "speaker": "A"
+    },
+    {
+     "text": "for",
+     "start": 17220,
+     "end": 17317,
+     "confidence": 0.9999747,
+     "speaker": "A"
+    },
+    {
+     "text": "choosing",
+     "start": 17317,
+     "end": 17687,
+     "confidence": 0.9999968,
+     "speaker": "A"
+    },
+    {
+     "text": "City",
+     "start": 17783,
+     "end": 18008,
+     "confidence": 0.99999356,
+     "speaker": "A"
+    },
+    {
+     "text": "Dental.",
+     "start": 18041,
+     "end": 18346,
+     "confidence": 0.98737353,
+     "speaker": "A"
+    },
+    {
+     "text": "Have",
+     "start": 18587,
+     "end": 18700,
+     "confidence": 0.9997775,
+     "speaker": "A"
+    },
+    {
+     "text": "a",
+     "start": 18700,
+     "end": 18828,
+     "confidence": 0.9999976,
+     "speaker": "A"
+    },
+    {
+     "text": "great",
+     "start": 18828,
+     "end": 19021,
+     "confidence": 0.9999901,
+     "speaker": "A"
+    },
+    {
+     "text": "day!",
+     "start": 19086,
+     "end": 19182,
+     "confidence": 0.9976995,
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "sentiment_analysis_results": [
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "[Speaker:1] Hello, this is Sarah from City Dental.",
+   "start": 32,
+   "end": 2009,
+   "confidence": 0.8915838
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "I'm calling to remind you of your appointment on Thursday at 3 PM.",
+   "start": 2363,
+   "end": 5740,
+   "confidence": 0.9383897
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "B",
+   "text": "[Speaker:2] Oh yes, Thursday at 3 works for me.",
+   "start": 5740,
+   "end": 9229,
+   "confidence": 0.8135905
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "See you then!",
+   "start": 9454,
+   "end": 10290,
+   "confidence": 0.57844007
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "[Speaker:1] Wonderful!",
+   "start": 10290,
+   "end": 11561,
+   "confidence": 0.9027419
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "Your appointment is confirmed.",
+   "start": 11834,
+   "end": 13313,
+   "confidence": 0.6819791
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "No payment is needed today, and no action is required.",
+   "start": 13474,
+   "end": 16690,
+   "confidence": 0.7230615
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "Thank you for choosing City Dental.",
+   "start": 16819,
+   "end": 18346,
+   "confidence": 0.9626657
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "Have a great day!",
+   "start": 18587,
+   "end": 19182,
+   "confidence": 0.9876529
+  }
+ ],
+ "words": [
+  {
+   "text": "Hello,",
+   "start": 32,
+   "end": 289,
+   "confidence": 0.9945755,
+   "speaker": "A"
+  },
+  {
+   "text": "this",
+   "start": 594,
+   "end": 755,
+   "confidence": 0.99996054,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 755,
+   "end": 836,
+   "confidence": 0.9999969,
+   "speaker": "A"
+  },
+  {
+   "text": "[PERSON_NAME]",
+   "start": 836,
+   "end": 1222,
+   "confidence": 0.9956136,
+   "speaker": "A"
+  },
+  {
+   "text": "from",
+   "start": 1222,
+   "end": 1398,
+   "confidence": 0.99991536,
+   "speaker": "A"
+  },
+  {
+   "text": "City",
+   "start": 1398,
+   "end": 1688,
+   "confidence": 0.9996488,
+   "speaker": "A"
+  },
+  {
+   "text": "Dental.",
+   "start": 1720,
+   "end": 2009,
+   "confidence": 0.99900156,
+   "speaker": "A"
+  },
+  {
+   "text": "I'm",
+   "start": 2363,
+   "end": 2508,
+   "confidence": 0.9998043,
+   "speaker": "A"
+  },
+  {
+   "text": "calling",
+   "start": 2524,
+   "end": 2813,
+   "confidence": 0.9999932,
+   "speaker": "A"
+  },
+  {
+   "text": "to",
+   "start": 2846,
+   "end": 2942,
+   "confidence": 0.9999713,
+   "speaker": "A"
+  },
+  {
+   "text": "remind",
+   "start": 2942,
+   "end": 3328,
+   "confidence": 0.99999595,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 3328,
+   "end": 3457,
+   "confidence": 0.999995,
+   "speaker": "A"
+  },
+  {
+   "text": "of",
+   "start": 3473,
+   "end": 3569,
+   "confidence": 0.9999763,
+   "speaker": "A"
+  },
+  {
+   "text": "your",
+   "start": 3569,
+   "end": 3682,
+   "confidence": 0.99998474,
+   "speaker": "A"
+  },
+  {
+   "text": "appointment",
+   "start": 3714,
+   "end": 4212,
+   "confidence": 0.99996483,
+   "speaker": "A"
+  },
+  {
+   "text": "on",
+   "start": 4212,
+   "end": 4325,
+   "confidence": 0.99996626,
+   "speaker": "A"
+  },
+  {
+   "text": "Thursday",
+   "start": 4373,
+   "end": 4920,
+   "confidence": 0.99997246,
+   "speaker": "A"
+  },
+  {
+   "text": "at",
+   "start": 4936,
+   "end": 5081,
+   "confidence": 0.9999268,
+   "speaker": "A"
+  },
+  {
+   "text": "3",
+   "start": 5081,
+   "end": 5322,
+   "confidence": 0.99998903,
+   "speaker": "A"
+  },
+  {
+   "text": "PM.",
+   "start": 5322,
+   "end": 5740,
+   "confidence": 0.95825326,
+   "speaker": "A"
+  },
+  {
+   "text": "Oh",
+   "start": 6608,
+   "end": 6624,
+   "confidence": 0.9997949,
+   "speaker": "B"
+  },
+  {
+   "text": "yes,",
+   "start": 6849,
+   "end": 7187,
+   "confidence": 0.99323696,
+   "speaker": "B"
+  },
+  {
+   "text": "Thursday",
+   "start": 7332,
+   "end": 7830,
+   "confidence": 0.99993205,
+   "speaker": "B"
+  },
+  {
+   "text": "at",
+   "start": 7975,
+   "end": 8136,
+   "confidence": 0.9997534,
+   "speaker": "B"
+  },
+  {
+   "text": "3",
+   "start": 8136,
+   "end": 8425,
+   "confidence": 0.9999925,
+   "speaker": "B"
+  },
+  {
+   "text": "works",
+   "start": 8457,
+   "end": 8795,
+   "confidence": 0.99619126,
+   "speaker": "B"
+  },
+  {
+   "text": "for",
+   "start": 8795,
+   "end": 8924,
+   "confidence": 0.9999496,
+   "speaker": "B"
+  },
+  {
+   "text": "me.",
+   "start": 8972,
+   "end": 9229,
+   "confidence": 0.9897789,
+   "speaker": "B"
+  },
+  {
+   "text": "See",
+   "start": 9454,
+   "end": 9824,
+   "confidence": 0.9996718,
+   "speaker": "B"
+  },
+  {
+   "text": "you",
+   "start": 9824,
+   "end": 10001,
+   "confidence": 0.99998903,
+   "speaker": "B"
+  },
+  {
+   "text": "then!",
+   "start": 10001,
+   "end": 10290,
+   "confidence": 0.8884885,
+   "speaker": "B"
+  },
+  {
+   "text": "Wonderful!",
+   "start": 11191,
+   "end": 11561,
+   "confidence": 0.9357547,
+   "speaker": "A"
+  },
+  {
+   "text": "Your",
+   "start": 11834,
+   "end": 11963,
+   "confidence": 0.9996313,
+   "speaker": "A"
+  },
+  {
+   "text": "appointment",
+   "start": 11995,
+   "end": 12590,
+   "confidence": 0.9999918,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 12590,
+   "end": 12670,
+   "confidence": 0.99998164,
+   "speaker": "A"
+  },
+  {
+   "text": "confirmed.",
+   "start": 12734,
+   "end": 13313,
+   "confidence": 0.9980307,
+   "speaker": "A"
+  },
+  {
+   "text": "No",
+   "start": 13474,
+   "end": 13683,
+   "confidence": 0.9998958,
+   "speaker": "A"
+  },
+  {
+   "text": "payment",
+   "start": 13683,
+   "end": 14117,
+   "confidence": 0.9999943,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 14117,
+   "end": 14198,
+   "confidence": 0.9999875,
+   "speaker": "A"
+  },
+  {
+   "text": "needed",
+   "start": 14278,
+   "end": 14583,
+   "confidence": 0.99998677,
+   "speaker": "A"
+  },
+  {
+   "text": "today,",
+   "start": 14583,
+   "end": 14857,
+   "confidence": 0.9972268,
+   "speaker": "A"
+  },
+  {
+   "text": "and",
+   "start": 15371,
+   "end": 15452,
+   "confidence": 0.9999732,
+   "speaker": "A"
+  },
+  {
+   "text": "no",
+   "start": 15532,
+   "end": 15580,
+   "confidence": 0.9996056,
+   "speaker": "A"
+  },
+  {
+   "text": "action",
+   "start": 15693,
+   "end": 15982,
+   "confidence": 0.999874,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 16031,
+   "end": 16175,
+   "confidence": 0.9999851,
+   "speaker": "A"
+  },
+  {
+   "text": "required.",
+   "start": 16175,
+   "end": 16690,
+   "confidence": 0.99987817,
+   "speaker": "A"
+  },
+  {
+   "text": "Thank",
+   "start": 16819,
+   "end": 17076,
+   "confidence": 0.99977404,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 17076,
+   "end": 17220,
+   "confidence": 0.9999939,
+   "speaker": "A"
+  },
+  {
+   "text": "for",
+   "start": 17220,
+   "end": 17317,
+   "confidence": 0.9999747,
+   "speaker": "A"
+  },
+  {
+   "text": "choosing",
+   "start": 17317,
+   "end": 17687,
+   "confidence": 0.9999968,
+   "speaker": "A"
+  },
+  {
+   "text": "City",
+   "start": 17783,
+   "end": 18008,
+   "confidence": 0.99999356,
+   "speaker": "A"
+  },
+  {
+   "text": "Dental.",
+   "start": 18041,
+   "end": 18346,
+   "confidence": 0.98737353,
+   "speaker": "A"
+  },
+  {
+   "text": "Have",
+   "start": 18587,
+   "end": 18700,
+   "confidence": 0.9997775,
+   "speaker": "A"
+  },
+  {
+   "text": "a",
+   "start": 18700,
+   "end": 18828,
+   "confidence": 0.9999976,
+   "speaker": "A"
+  },
+  {
+   "text": "great",
+   "start": 18828,
+   "end": 19021,
+   "confidence": 0.9999901,
+   "speaker": "A"
+  },
+  {
+   "text": "day!",
+   "start": 19086,
+   "end": 19182,
+   "confidence": 0.9976995,
+   "speaker": "A"
+  }
+ ],
+ "audio_duration": 21,
+ "language_code": "en",
+ "confidence": 0.9951367
+}

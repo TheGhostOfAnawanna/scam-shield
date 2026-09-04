@@ -1,0 +1,255 @@
+{
+  "score": 74,
+  "verdict": "SCAM",
+  "scenario": "Government impostor",
+  "scenario_confidence": 0.51,
+  "signals": [
+    {
+      "family": "authority",
+      "pattern": "\\b(officer|agent|detective|inspector|investigator)\\b",
+      "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+      "speaker": "A",
+      "points": 12
+    },
+    {
+      "family": "authority",
+      "pattern": "\\b(case number|badge number|file number|reference number)\\b",
+      "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+      "speaker": "A",
+      "points": 14
+    },
+    {
+      "family": "authority",
+      "pattern": "\\b(department of|bureau of|administration|internal revenue)\\b",
+      "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+      "speaker": "A",
+      "points": 12
+    },
+    {
+      "family": "urgency",
+      "pattern": "\\b(within (?:the next )?(?:\\d+ ?(?:minutes?|hours?)|an hour|one hour|two hours))\\b",
+      "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+      "speaker": "A",
+      "points": 22
+    },
+    {
+      "family": "urgency",
+      "pattern": "\\b(legal action will be taken|further action will be taken)\\b",
+      "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+      "speaker": "A",
+      "points": 20
+    },
+    {
+      "family": "authority",
+      "pattern": "\\b(arrest warrant|warrant (?:out|for|in your name)|you will be arrested)\\b",
+      "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+      "speaker": "A",
+      "points": 24
+    },
+    {
+      "family": "authority",
+      "pattern": "\\b(arrest warrant|warrant (?:out|for|in your name)|you will be arrested)\\b",
+      "quote": "An arrest warrant? What do I do?",
+      "speaker": "B",
+      "points": 24
+    },
+    {
+      "family": "urgency",
+      "pattern": "\\b(right now|immediately|asap|as soon as (?:you|we) (?:can|hang ?up))\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 18
+    },
+    {
+      "family": "urgency",
+      "pattern": "\\b(today only|final notice|last chance|before (?:it'?s|is) too late)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 20
+    },
+    {
+      "family": "payment",
+      "pattern": "\\b(pay|paying)\\b[^.;]{0,25}?\\b(fee|fine|penalty|bail|tax(?:es)?|bill|amount|dues?)\\b[^.;]{0,20}?\\b(of|now|immediately|first|right now|today)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 18
+    },
+    {
+      "family": "payment",
+      "pattern": "\\b(buy|purchase|get)\\b[^.;]{0,40}?\\b(gift|itunes|google play|steam)\\s+cards?\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 26
+    },
+    {
+      "family": "secrecy",
+      "pattern": "\\b(don'?t tell (?:anyone|your (?:family|husband|wife|parents|bank))|not (?:to )?tell anyone)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 30
+    },
+    {
+      "family": "secrecy",
+      "pattern": "\\b(keep this (?:between us|confidential|private)|this (?:call|conversation) is confidential)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 24
+    },
+    {
+      "family": "secrecy",
+      "pattern": "\\b(stay on the line|do not hang up|don'?t disconnect)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 18
+    },
+    {
+      "family": "secrecy",
+      "pattern": "\\b(do not (?:verify|call|check) (?:this|with your bank|the number))\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 28
+    },
+    {
+      "family": "secrecy",
+      "pattern": "\\b(don'?t verify this|do not verify this)\\b",
+      "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+      "speaker": "A",
+      "points": 28
+    }
+  ],
+  "negations": [],
+  "speakers": [
+    {
+      "speaker": "A",
+      "score": 100,
+      "role": "suspected scammer",
+      "word_count": 147,
+      "hits": [
+        {
+          "family": "authority",
+          "pattern": "\\b(officer|agent|detective|inspector|investigator)\\b",
+          "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+          "speaker": "A",
+          "points": 12
+        },
+        {
+          "family": "authority",
+          "pattern": "\\b(case number|badge number|file number|reference number)\\b",
+          "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+          "speaker": "A",
+          "points": 14
+        },
+        {
+          "family": "authority",
+          "pattern": "\\b(department of|bureau of|administration|internal revenue)\\b",
+          "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+          "speaker": "A",
+          "points": 12
+        },
+        {
+          "family": "urgency",
+          "pattern": "\\b(within (?:the next )?(?:\\d+ ?(?:minutes?|hours?)|an hour|one hour|two hours))\\b",
+          "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+          "speaker": "A",
+          "points": 22
+        },
+        {
+          "family": "urgency",
+          "pattern": "\\b(legal action will be taken|further action will be taken)\\b",
+          "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+          "speaker": "A",
+          "points": 20
+        },
+        {
+          "family": "authority",
+          "pattern": "\\b(arrest warrant|warrant (?:out|for|in your name)|you will be arrested)\\b",
+          "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+          "speaker": "A",
+          "points": 24
+        },
+        {
+          "family": "urgency",
+          "pattern": "\\b(right now|immediately|asap|as soon as (?:you|we) (?:can|hang ?up))\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 18
+        },
+        {
+          "family": "urgency",
+          "pattern": "\\b(today only|final notice|last chance|before (?:it'?s|is) too late)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 20
+        },
+        {
+          "family": "payment",
+          "pattern": "\\b(pay|paying)\\b[^.;]{0,25}?\\b(fee|fine|penalty|bail|tax(?:es)?|bill|amount|dues?)\\b[^.;]{0,20}?\\b(of|now|immediately|first|right now|today)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 18
+        },
+        {
+          "family": "payment",
+          "pattern": "\\b(buy|purchase|get)\\b[^.;]{0,40}?\\b(gift|itunes|google play|steam)\\s+cards?\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 26
+        },
+        {
+          "family": "secrecy",
+          "pattern": "\\b(don'?t tell (?:anyone|your (?:family|husband|wife|parents|bank))|not (?:to )?tell anyone)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 30
+        },
+        {
+          "family": "secrecy",
+          "pattern": "\\b(keep this (?:between us|confidential|private)|this (?:call|conversation) is confidential)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 24
+        },
+        {
+          "family": "secrecy",
+          "pattern": "\\b(stay on the line|do not hang up|don'?t disconnect)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 18
+        },
+        {
+          "family": "secrecy",
+          "pattern": "\\b(do not (?:verify|call|check) (?:this|with your bank|the number))\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 28
+        },
+        {
+          "family": "secrecy",
+          "pattern": "\\b(don'?t verify this|do not verify this)\\b",
+          "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+          "speaker": "A",
+          "points": 28
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "score": 48,
+      "role": "suspected scammer",
+      "word_count": 16,
+      "hits": [
+        {
+          "family": "authority",
+          "pattern": "\\b(arrest warrant|warrant (?:out|for|in your name)|you will be arrested)\\b",
+          "quote": "An arrest warrant? What do I do?",
+          "speaker": "B",
+          "points": 24
+        }
+      ]
+    }
+  ],
+  "victim_negative_turns": 0,
+  "total_negative_turns": 6,
+  "legit_signals": [],
+  "explanation": "This matches the known scam pattern 'Government impostor' (51% confidence). Main red flags: isolation tactics and fake authority. Speaker A is running a pressure script (100/100). Do not pay anything and do not share codes, PINs or account numbers. Hang up."
+}

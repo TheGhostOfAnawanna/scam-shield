@@ -1,0 +1,1613 @@
+{
+ "id": "ce27c492-a915-4c5c-9bf3-0de28e9e3a1d",
+ "status": "completed",
+ "text": "Hello, this is Officer [PERSON_NAME] with the Criminal Investigation Unit of the Internal Revenue Service. We have issued an arrest warrant against you for tax fraud. If you do not pay the outstanding balance immediately, local police will come to detain you within the next 2 hours. You must pay with gift cards or a wire transfer right now. Do not hang up! Do not tell anyone about this call! This is a confidential matter between you and me! Your bank will not help you! Stay on the line while I confirm the courier! Time is running out! Just follow my instructions, and this goes away today!",
+ "language_code": "en",
+ "speech_model": null,
+ "speech_models": [
+  "universal-3-5-pro",
+  "universal-2"
+ ],
+ "audio_duration": 39,
+ "utterances": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is Officer [PERSON_NAME] with the Criminal Investigation Unit of the Internal Revenue Service. We have issued an arrest warrant against you for tax fraud. If you do not pay the outstanding balance immediately, local police will come to detain you within the next 2 hours. You must pay with gift cards or a wire transfer right now. Do not hang up! Do not tell anyone about this call! This is a confidential matter between you and me! Your bank will not help you! Stay on the line while I confirm the courier! Time is running out! Just follow my instructions, and this goes away today!",
+   "confidence": 0.97662246,
+   "start": 0,
+   "end": 38140,
+   "words": [
+    {
+     "text": "Hello,",
+     "start": 0,
+     "end": 272,
+     "confidence": 0.92815626,
+     "speaker": "A"
+    },
+    {
+     "text": "this",
+     "start": 737,
+     "end": 914,
+     "confidence": 0.99991727,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 914,
+     "end": 1042,
+     "confidence": 0.99998975,
+     "speaker": "A"
+    },
+    {
+     "text": "Officer",
+     "start": 1138,
+     "end": 1555,
+     "confidence": 0.9996681,
+     "speaker": "A"
+    },
+    {
+     "text": "[PERSON_NAME]",
+     "start": 1555,
+     "end": 2101,
+     "confidence": 0.9892607,
+     "speaker": "A"
+    },
+    {
+     "text": "with",
+     "start": 2101,
+     "end": 2277,
+     "confidence": 0.99802005,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 2277,
+     "end": 2422,
+     "confidence": 0.99995315,
+     "speaker": "A"
+    },
+    {
+     "text": "Criminal",
+     "start": 2422,
+     "end": 2855,
+     "confidence": 0.9993831,
+     "speaker": "A"
+    },
+    {
+     "text": "Investigation",
+     "start": 2855,
+     "end": 3689,
+     "confidence": 0.99986136,
+     "speaker": "A"
+    },
+    {
+     "text": "Unit",
+     "start": 3785,
+     "end": 4058,
+     "confidence": 0.99942917,
+     "speaker": "A"
+    },
+    {
+     "text": "of",
+     "start": 4106,
+     "end": 4202,
+     "confidence": 0.995572,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 4266,
+     "end": 4378,
+     "confidence": 0.99995685,
+     "speaker": "A"
+    },
+    {
+     "text": "Internal",
+     "start": 4378,
+     "end": 4795,
+     "confidence": 0.99855405,
+     "speaker": "A"
+    },
+    {
+     "text": "Revenue",
+     "start": 4827,
+     "end": 5245,
+     "confidence": 0.9999914,
+     "speaker": "A"
+    },
+    {
+     "text": "Service.",
+     "start": 5245,
+     "end": 5742,
+     "confidence": 0.94781107,
+     "speaker": "A"
+    },
+    {
+     "text": "We",
+     "start": 6207,
+     "end": 6367,
+     "confidence": 0.9838966,
+     "speaker": "A"
+    },
+    {
+     "text": "have",
+     "start": 6367,
+     "end": 6608,
+     "confidence": 0.9973865,
+     "speaker": "A"
+    },
+    {
+     "text": "issued",
+     "start": 6608,
+     "end": 6993,
+     "confidence": 0.99987483,
+     "speaker": "A"
+    },
+    {
+     "text": "an",
+     "start": 6993,
+     "end": 7041,
+     "confidence": 0.9998171,
+     "speaker": "A"
+    },
+    {
+     "text": "arrest",
+     "start": 7089,
+     "end": 7490,
+     "confidence": 0.99999034,
+     "speaker": "A"
+    },
+    {
+     "text": "warrant",
+     "start": 7490,
+     "end": 7891,
+     "confidence": 0.99999726,
+     "speaker": "A"
+    },
+    {
+     "text": "against",
+     "start": 7891,
+     "end": 8356,
+     "confidence": 0.99993086,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 8356,
+     "end": 8420,
+     "confidence": 0.99998724,
+     "speaker": "A"
+    },
+    {
+     "text": "for",
+     "start": 8452,
+     "end": 8693,
+     "confidence": 0.99996865,
+     "speaker": "A"
+    },
+    {
+     "text": "tax",
+     "start": 8693,
+     "end": 9158,
+     "confidence": 0.99993825,
+     "speaker": "A"
+    },
+    {
+     "text": "fraud.",
+     "start": 9158,
+     "end": 9543,
+     "confidence": 0.93830544,
+     "speaker": "A"
+    },
+    {
+     "text": "If",
+     "start": 9976,
+     "end": 10121,
+     "confidence": 0.99452317,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 10121,
+     "end": 10217,
+     "confidence": 0.999987,
+     "speaker": "A"
+    },
+    {
+     "text": "do",
+     "start": 10281,
+     "end": 10329,
+     "confidence": 0.99689,
+     "speaker": "A"
+    },
+    {
+     "text": "not",
+     "start": 10361,
+     "end": 10490,
+     "confidence": 0.99998295,
+     "speaker": "A"
+    },
+    {
+     "text": "pay",
+     "start": 10618,
+     "end": 10858,
+     "confidence": 0.9999317,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 10858,
+     "end": 11019,
+     "confidence": 0.9998056,
+     "speaker": "A"
+    },
+    {
+     "text": "outstanding",
+     "start": 11019,
+     "end": 11628,
+     "confidence": 0.9998379,
+     "speaker": "A"
+    },
+    {
+     "text": "balance",
+     "start": 11741,
+     "end": 12110,
+     "confidence": 0.9998461,
+     "speaker": "A"
+    },
+    {
+     "text": "immediately,",
+     "start": 12206,
+     "end": 12831,
+     "confidence": 0.99985325,
+     "speaker": "A"
+    },
+    {
+     "text": "local",
+     "start": 13088,
+     "end": 13409,
+     "confidence": 0.9990299,
+     "speaker": "A"
+    },
+    {
+     "text": "police",
+     "start": 13489,
+     "end": 13826,
+     "confidence": 0.9999707,
+     "speaker": "A"
+    },
+    {
+     "text": "will",
+     "start": 13826,
+     "end": 14002,
+     "confidence": 0.999946,
+     "speaker": "A"
+    },
+    {
+     "text": "come",
+     "start": 14066,
+     "end": 14259,
+     "confidence": 0.9999628,
+     "speaker": "A"
+    },
+    {
+     "text": "to",
+     "start": 14387,
+     "end": 14532,
+     "confidence": 0.99581486,
+     "speaker": "A"
+    },
+    {
+     "text": "detain",
+     "start": 14532,
+     "end": 14949,
+     "confidence": 0.9995578,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 14949,
+     "end": 15045,
+     "confidence": 0.9999927,
+     "speaker": "A"
+    },
+    {
+     "text": "within",
+     "start": 15125,
+     "end": 15478,
+     "confidence": 0.9995691,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 15574,
+     "end": 15606,
+     "confidence": 0.9999671,
+     "speaker": "A"
+    },
+    {
+     "text": "next",
+     "start": 15606,
+     "end": 16136,
+     "confidence": 0.9999732,
+     "speaker": "A"
+    },
+    {
+     "text": "2",
+     "start": 16136,
+     "end": 16296,
+     "confidence": 0.9999567,
+     "speaker": "A"
+    },
+    {
+     "text": "hours.",
+     "start": 16312,
+     "end": 16681,
+     "confidence": 0.9692537,
+     "speaker": "A"
+    },
+    {
+     "text": "You",
+     "start": 17114,
+     "end": 17274,
+     "confidence": 0.98734075,
+     "speaker": "A"
+    },
+    {
+     "text": "must",
+     "start": 17274,
+     "end": 17595,
+     "confidence": 0.99994254,
+     "speaker": "A"
+    },
+    {
+     "text": "pay",
+     "start": 17595,
+     "end": 17836,
+     "confidence": 0.9999492,
+     "speaker": "A"
+    },
+    {
+     "text": "with",
+     "start": 17852,
+     "end": 18076,
+     "confidence": 0.99956614,
+     "speaker": "A"
+    },
+    {
+     "text": "gift",
+     "start": 18076,
+     "end": 18397,
+     "confidence": 0.99990773,
+     "speaker": "A"
+    },
+    {
+     "text": "cards",
+     "start": 18397,
+     "end": 18942,
+     "confidence": 0.99977773,
+     "speaker": "A"
+    },
+    {
+     "text": "or",
+     "start": 19039,
+     "end": 19151,
+     "confidence": 0.95783293,
+     "speaker": "A"
+    },
+    {
+     "text": "a",
+     "start": 19199,
+     "end": 19263,
+     "confidence": 0.9938595,
+     "speaker": "A"
+    },
+    {
+     "text": "wire",
+     "start": 19279,
+     "end": 19584,
+     "confidence": 0.9999759,
+     "speaker": "A"
+    },
+    {
+     "text": "transfer",
+     "start": 19584,
+     "end": 20161,
+     "confidence": 0.99997866,
+     "speaker": "A"
+    },
+    {
+     "text": "right",
+     "start": 20161,
+     "end": 20418,
+     "confidence": 0.99969375,
+     "speaker": "A"
+    },
+    {
+     "text": "now.",
+     "start": 20418,
+     "end": 20675,
+     "confidence": 0.8337246,
+     "speaker": "A"
+    },
+    {
+     "text": "Do",
+     "start": 21204,
+     "end": 21300,
+     "confidence": 0.9543671,
+     "speaker": "A"
+    },
+    {
+     "text": "not",
+     "start": 21300,
+     "end": 21477,
+     "confidence": 0.9999472,
+     "speaker": "A"
+    },
+    {
+     "text": "hang",
+     "start": 21605,
+     "end": 21814,
+     "confidence": 0.99996364,
+     "speaker": "A"
+    },
+    {
+     "text": "up!",
+     "start": 21990,
+     "end": 22086,
+     "confidence": 0.822083,
+     "speaker": "A"
+    },
+    {
+     "text": "Do",
+     "start": 22632,
+     "end": 22712,
+     "confidence": 0.8719296,
+     "speaker": "A"
+    },
+    {
+     "text": "not",
+     "start": 22728,
+     "end": 22968,
+     "confidence": 0.999954,
+     "speaker": "A"
+    },
+    {
+     "text": "tell",
+     "start": 23033,
+     "end": 23257,
+     "confidence": 0.99995553,
+     "speaker": "A"
+    },
+    {
+     "text": "anyone",
+     "start": 23353,
+     "end": 23642,
+     "confidence": 0.99984837,
+     "speaker": "A"
+    },
+    {
+     "text": "about",
+     "start": 23690,
+     "end": 24075,
+     "confidence": 0.9997806,
+     "speaker": "A"
+    },
+    {
+     "text": "this",
+     "start": 24075,
+     "end": 24204,
+     "confidence": 0.99998677,
+     "speaker": "A"
+    },
+    {
+     "text": "call!",
+     "start": 24252,
+     "end": 24524,
+     "confidence": 0.9807295,
+     "speaker": "A"
+    },
+    {
+     "text": "This",
+     "start": 25118,
+     "end": 25182,
+     "confidence": 0.95316666,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 25294,
+     "end": 25390,
+     "confidence": 0.9999764,
+     "speaker": "A"
+    },
+    {
+     "text": "a",
+     "start": 25439,
+     "end": 25519,
+     "confidence": 0.9999398,
+     "speaker": "A"
+    },
+    {
+     "text": "confidential",
+     "start": 25519,
+     "end": 26353,
+     "confidence": 0.99968326,
+     "speaker": "A"
+    },
+    {
+     "text": "matter",
+     "start": 26353,
+     "end": 26738,
+     "confidence": 0.9997844,
+     "speaker": "A"
+    },
+    {
+     "text": "between",
+     "start": 26738,
+     "end": 27235,
+     "confidence": 0.99786276,
+     "speaker": "A"
+    },
+    {
+     "text": "you",
+     "start": 27283,
+     "end": 27476,
+     "confidence": 0.9996611,
+     "speaker": "A"
+    },
+    {
+     "text": "and",
+     "start": 27620,
+     "end": 27845,
+     "confidence": 0.9935061,
+     "speaker": "A"
+    },
+    {
+     "text": "me!",
+     "start": 27845,
+     "end": 27941,
+     "confidence": 0.9229585,
+     "speaker": "A"
+    },
+    {
+     "text": "Your",
+     "start": 28342,
+     "end": 28535,
+     "confidence": 0.9906977,
+     "speaker": "A"
+    },
+    {
+     "text": "bank",
+     "start": 28567,
+     "end": 28888,
+     "confidence": 0.9995987,
+     "speaker": "A"
+    },
+    {
+     "text": "will",
+     "start": 28904,
+     "end": 29097,
+     "confidence": 0.9986137,
+     "speaker": "A"
+    },
+    {
+     "text": "not",
+     "start": 29145,
+     "end": 29466,
+     "confidence": 0.999241,
+     "speaker": "A"
+    },
+    {
+     "text": "help",
+     "start": 29466,
+     "end": 29932,
+     "confidence": 0.9999018,
+     "speaker": "A"
+    },
+    {
+     "text": "you!",
+     "start": 29932,
+     "end": 29964,
+     "confidence": 0.7378429,
+     "speaker": "A"
+    },
+    {
+     "text": "Stay",
+     "start": 30494,
+     "end": 30703,
+     "confidence": 0.8643772,
+     "speaker": "A"
+    },
+    {
+     "text": "on",
+     "start": 30816,
+     "end": 30912,
+     "confidence": 0.9999002,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 30912,
+     "end": 31073,
+     "confidence": 0.99993455,
+     "speaker": "A"
+    },
+    {
+     "text": "line",
+     "start": 31073,
+     "end": 31298,
+     "confidence": 0.9999584,
+     "speaker": "A"
+    },
+    {
+     "text": "while",
+     "start": 31394,
+     "end": 31667,
+     "confidence": 0.9994733,
+     "speaker": "A"
+    },
+    {
+     "text": "I",
+     "start": 31699,
+     "end": 31795,
+     "confidence": 0.99998,
+     "speaker": "A"
+    },
+    {
+     "text": "confirm",
+     "start": 31795,
+     "end": 32293,
+     "confidence": 0.9960724,
+     "speaker": "A"
+    },
+    {
+     "text": "the",
+     "start": 32358,
+     "end": 32502,
+     "confidence": 0.9597427,
+     "speaker": "A"
+    },
+    {
+     "text": "courier!",
+     "start": 32502,
+     "end": 33000,
+     "confidence": 0.8797056,
+     "speaker": "A"
+    },
+    {
+     "text": "Time",
+     "start": 33402,
+     "end": 33707,
+     "confidence": 0.82930535,
+     "speaker": "A"
+    },
+    {
+     "text": "is",
+     "start": 33707,
+     "end": 33803,
+     "confidence": 0.9980355,
+     "speaker": "A"
+    },
+    {
+     "text": "running",
+     "start": 33868,
+     "end": 34092,
+     "confidence": 0.9999734,
+     "speaker": "A"
+    },
+    {
+     "text": "out!",
+     "start": 34189,
+     "end": 34414,
+     "confidence": 0.994744,
+     "speaker": "A"
+    },
+    {
+     "text": "Just",
+     "start": 34912,
+     "end": 35121,
+     "confidence": 0.8157506,
+     "speaker": "A"
+    },
+    {
+     "text": "follow",
+     "start": 35233,
+     "end": 35586,
+     "confidence": 0.9999579,
+     "speaker": "A"
+    },
+    {
+     "text": "my",
+     "start": 35586,
+     "end": 35747,
+     "confidence": 0.9998777,
+     "speaker": "A"
+    },
+    {
+     "text": "instructions,",
+     "start": 35747,
+     "end": 36663,
+     "confidence": 0.728466,
+     "speaker": "A"
+    },
+    {
+     "text": "and",
+     "start": 36775,
+     "end": 36839,
+     "confidence": 0.9963278,
+     "speaker": "A"
+    },
+    {
+     "text": "this",
+     "start": 37016,
+     "end": 37144,
+     "confidence": 0.96768516,
+     "speaker": "A"
+    },
+    {
+     "text": "goes",
+     "start": 37241,
+     "end": 37418,
+     "confidence": 0.8222461,
+     "speaker": "A"
+    },
+    {
+     "text": "away",
+     "start": 37418,
+     "end": 37658,
+     "confidence": 0.9980313,
+     "speaker": "A"
+    },
+    {
+     "text": "today!",
+     "start": 37658,
+     "end": 38140,
+     "confidence": 0.98947895,
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "sentiment_analysis_results": [
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "[Speaker:1] Hello, this is Officer Daniels with the Criminal Investigation Unit of the Internal Revenue Service.",
+   "start": 0,
+   "end": 5742,
+   "confidence": 0.89835083
+  },
+  {
+   "sentiment": "NEGATIVE",
+   "speaker": "A",
+   "text": "We have issued an arrest warrant against you for tax fraud.",
+   "start": 6207,
+   "end": 9543,
+   "confidence": 0.64599365
+  },
+  {
+   "sentiment": "NEGATIVE",
+   "speaker": "A",
+   "text": "If you do not pay the outstanding balance immediately, local police will come to detain you within the next 2 hours.",
+   "start": 9976,
+   "end": 16681,
+   "confidence": 0.84164554
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "You must pay with gift cards or a wire transfer right now.",
+   "start": 17114,
+   "end": 20675,
+   "confidence": 0.90215033
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "Do not hang up!",
+   "start": 21204,
+   "end": 22086,
+   "confidence": 0.5693486
+  },
+  {
+   "sentiment": "NEGATIVE",
+   "speaker": "A",
+   "text": "Do not tell anyone about this call!",
+   "start": 22632,
+   "end": 24524,
+   "confidence": 0.6874822
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "This is a confidential matter between you and me!",
+   "start": 25118,
+   "end": 27941,
+   "confidence": 0.84533715
+  },
+  {
+   "sentiment": "NEGATIVE",
+   "speaker": "A",
+   "text": "[Speaker:2] [Speaker:1] Your bank will not help you!",
+   "start": 27941,
+   "end": 29964,
+   "confidence": 0.8409234
+  },
+  {
+   "sentiment": "NEUTRAL",
+   "speaker": "A",
+   "text": "Stay on the line while I confirm the courier!",
+   "start": 30494,
+   "end": 33000,
+   "confidence": 0.8615545
+  },
+  {
+   "sentiment": "NEGATIVE",
+   "speaker": "A",
+   "text": "Time is running out!",
+   "start": 33402,
+   "end": 34414,
+   "confidence": 0.52347314
+  },
+  {
+   "sentiment": "POSITIVE",
+   "speaker": "A",
+   "text": "Just follow my instructions, and this goes away today!",
+   "start": 34912,
+   "end": 38140,
+   "confidence": 0.5067161
+  }
+ ],
+ "words": [
+  {
+   "text": "Hello,",
+   "start": 0,
+   "end": 272,
+   "confidence": 0.92815626,
+   "speaker": "A"
+  },
+  {
+   "text": "this",
+   "start": 737,
+   "end": 914,
+   "confidence": 0.99991727,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 914,
+   "end": 1042,
+   "confidence": 0.99998975,
+   "speaker": "A"
+  },
+  {
+   "text": "Officer",
+   "start": 1138,
+   "end": 1555,
+   "confidence": 0.9996681,
+   "speaker": "A"
+  },
+  {
+   "text": "[PERSON_NAME]",
+   "start": 1555,
+   "end": 2101,
+   "confidence": 0.9892607,
+   "speaker": "A"
+  },
+  {
+   "text": "with",
+   "start": 2101,
+   "end": 2277,
+   "confidence": 0.99802005,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 2277,
+   "end": 2422,
+   "confidence": 0.99995315,
+   "speaker": "A"
+  },
+  {
+   "text": "Criminal",
+   "start": 2422,
+   "end": 2855,
+   "confidence": 0.9993831,
+   "speaker": "A"
+  },
+  {
+   "text": "Investigation",
+   "start": 2855,
+   "end": 3689,
+   "confidence": 0.99986136,
+   "speaker": "A"
+  },
+  {
+   "text": "Unit",
+   "start": 3785,
+   "end": 4058,
+   "confidence": 0.99942917,
+   "speaker": "A"
+  },
+  {
+   "text": "of",
+   "start": 4106,
+   "end": 4202,
+   "confidence": 0.995572,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 4266,
+   "end": 4378,
+   "confidence": 0.99995685,
+   "speaker": "A"
+  },
+  {
+   "text": "Internal",
+   "start": 4378,
+   "end": 4795,
+   "confidence": 0.99855405,
+   "speaker": "A"
+  },
+  {
+   "text": "Revenue",
+   "start": 4827,
+   "end": 5245,
+   "confidence": 0.9999914,
+   "speaker": "A"
+  },
+  {
+   "text": "Service.",
+   "start": 5245,
+   "end": 5742,
+   "confidence": 0.94781107,
+   "speaker": "A"
+  },
+  {
+   "text": "We",
+   "start": 6207,
+   "end": 6367,
+   "confidence": 0.9838966,
+   "speaker": "A"
+  },
+  {
+   "text": "have",
+   "start": 6367,
+   "end": 6608,
+   "confidence": 0.9973865,
+   "speaker": "A"
+  },
+  {
+   "text": "issued",
+   "start": 6608,
+   "end": 6993,
+   "confidence": 0.99987483,
+   "speaker": "A"
+  },
+  {
+   "text": "an",
+   "start": 6993,
+   "end": 7041,
+   "confidence": 0.9998171,
+   "speaker": "A"
+  },
+  {
+   "text": "arrest",
+   "start": 7089,
+   "end": 7490,
+   "confidence": 0.99999034,
+   "speaker": "A"
+  },
+  {
+   "text": "warrant",
+   "start": 7490,
+   "end": 7891,
+   "confidence": 0.99999726,
+   "speaker": "A"
+  },
+  {
+   "text": "against",
+   "start": 7891,
+   "end": 8356,
+   "confidence": 0.99993086,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 8356,
+   "end": 8420,
+   "confidence": 0.99998724,
+   "speaker": "A"
+  },
+  {
+   "text": "for",
+   "start": 8452,
+   "end": 8693,
+   "confidence": 0.99996865,
+   "speaker": "A"
+  },
+  {
+   "text": "tax",
+   "start": 8693,
+   "end": 9158,
+   "confidence": 0.99993825,
+   "speaker": "A"
+  },
+  {
+   "text": "fraud.",
+   "start": 9158,
+   "end": 9543,
+   "confidence": 0.93830544,
+   "speaker": "A"
+  },
+  {
+   "text": "If",
+   "start": 9976,
+   "end": 10121,
+   "confidence": 0.99452317,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 10121,
+   "end": 10217,
+   "confidence": 0.999987,
+   "speaker": "A"
+  },
+  {
+   "text": "do",
+   "start": 10281,
+   "end": 10329,
+   "confidence": 0.99689,
+   "speaker": "A"
+  },
+  {
+   "text": "not",
+   "start": 10361,
+   "end": 10490,
+   "confidence": 0.99998295,
+   "speaker": "A"
+  },
+  {
+   "text": "pay",
+   "start": 10618,
+   "end": 10858,
+   "confidence": 0.9999317,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 10858,
+   "end": 11019,
+   "confidence": 0.9998056,
+   "speaker": "A"
+  },
+  {
+   "text": "outstanding",
+   "start": 11019,
+   "end": 11628,
+   "confidence": 0.9998379,
+   "speaker": "A"
+  },
+  {
+   "text": "balance",
+   "start": 11741,
+   "end": 12110,
+   "confidence": 0.9998461,
+   "speaker": "A"
+  },
+  {
+   "text": "immediately,",
+   "start": 12206,
+   "end": 12831,
+   "confidence": 0.99985325,
+   "speaker": "A"
+  },
+  {
+   "text": "local",
+   "start": 13088,
+   "end": 13409,
+   "confidence": 0.9990299,
+   "speaker": "A"
+  },
+  {
+   "text": "police",
+   "start": 13489,
+   "end": 13826,
+   "confidence": 0.9999707,
+   "speaker": "A"
+  },
+  {
+   "text": "will",
+   "start": 13826,
+   "end": 14002,
+   "confidence": 0.999946,
+   "speaker": "A"
+  },
+  {
+   "text": "come",
+   "start": 14066,
+   "end": 14259,
+   "confidence": 0.9999628,
+   "speaker": "A"
+  },
+  {
+   "text": "to",
+   "start": 14387,
+   "end": 14532,
+   "confidence": 0.99581486,
+   "speaker": "A"
+  },
+  {
+   "text": "detain",
+   "start": 14532,
+   "end": 14949,
+   "confidence": 0.9995578,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 14949,
+   "end": 15045,
+   "confidence": 0.9999927,
+   "speaker": "A"
+  },
+  {
+   "text": "within",
+   "start": 15125,
+   "end": 15478,
+   "confidence": 0.9995691,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 15574,
+   "end": 15606,
+   "confidence": 0.9999671,
+   "speaker": "A"
+  },
+  {
+   "text": "next",
+   "start": 15606,
+   "end": 16136,
+   "confidence": 0.9999732,
+   "speaker": "A"
+  },
+  {
+   "text": "2",
+   "start": 16136,
+   "end": 16296,
+   "confidence": 0.9999567,
+   "speaker": "A"
+  },
+  {
+   "text": "hours.",
+   "start": 16312,
+   "end": 16681,
+   "confidence": 0.9692537,
+   "speaker": "A"
+  },
+  {
+   "text": "You",
+   "start": 17114,
+   "end": 17274,
+   "confidence": 0.98734075,
+   "speaker": "A"
+  },
+  {
+   "text": "must",
+   "start": 17274,
+   "end": 17595,
+   "confidence": 0.99994254,
+   "speaker": "A"
+  },
+  {
+   "text": "pay",
+   "start": 17595,
+   "end": 17836,
+   "confidence": 0.9999492,
+   "speaker": "A"
+  },
+  {
+   "text": "with",
+   "start": 17852,
+   "end": 18076,
+   "confidence": 0.99956614,
+   "speaker": "A"
+  },
+  {
+   "text": "gift",
+   "start": 18076,
+   "end": 18397,
+   "confidence": 0.99990773,
+   "speaker": "A"
+  },
+  {
+   "text": "cards",
+   "start": 18397,
+   "end": 18942,
+   "confidence": 0.99977773,
+   "speaker": "A"
+  },
+  {
+   "text": "or",
+   "start": 19039,
+   "end": 19151,
+   "confidence": 0.95783293,
+   "speaker": "A"
+  },
+  {
+   "text": "a",
+   "start": 19199,
+   "end": 19263,
+   "confidence": 0.9938595,
+   "speaker": "A"
+  },
+  {
+   "text": "wire",
+   "start": 19279,
+   "end": 19584,
+   "confidence": 0.9999759,
+   "speaker": "A"
+  },
+  {
+   "text": "transfer",
+   "start": 19584,
+   "end": 20161,
+   "confidence": 0.99997866,
+   "speaker": "A"
+  },
+  {
+   "text": "right",
+   "start": 20161,
+   "end": 20418,
+   "confidence": 0.99969375,
+   "speaker": "A"
+  },
+  {
+   "text": "now.",
+   "start": 20418,
+   "end": 20675,
+   "confidence": 0.8337246,
+   "speaker": "A"
+  },
+  {
+   "text": "Do",
+   "start": 21204,
+   "end": 21300,
+   "confidence": 0.9543671,
+   "speaker": "A"
+  },
+  {
+   "text": "not",
+   "start": 21300,
+   "end": 21477,
+   "confidence": 0.9999472,
+   "speaker": "A"
+  },
+  {
+   "text": "hang",
+   "start": 21605,
+   "end": 21814,
+   "confidence": 0.99996364,
+   "speaker": "A"
+  },
+  {
+   "text": "up!",
+   "start": 21990,
+   "end": 22086,
+   "confidence": 0.822083,
+   "speaker": "A"
+  },
+  {
+   "text": "Do",
+   "start": 22632,
+   "end": 22712,
+   "confidence": 0.8719296,
+   "speaker": "A"
+  },
+  {
+   "text": "not",
+   "start": 22728,
+   "end": 22968,
+   "confidence": 0.999954,
+   "speaker": "A"
+  },
+  {
+   "text": "tell",
+   "start": 23033,
+   "end": 23257,
+   "confidence": 0.99995553,
+   "speaker": "A"
+  },
+  {
+   "text": "anyone",
+   "start": 23353,
+   "end": 23642,
+   "confidence": 0.99984837,
+   "speaker": "A"
+  },
+  {
+   "text": "about",
+   "start": 23690,
+   "end": 24075,
+   "confidence": 0.9997806,
+   "speaker": "A"
+  },
+  {
+   "text": "this",
+   "start": 24075,
+   "end": 24204,
+   "confidence": 0.99998677,
+   "speaker": "A"
+  },
+  {
+   "text": "call!",
+   "start": 24252,
+   "end": 24524,
+   "confidence": 0.9807295,
+   "speaker": "A"
+  },
+  {
+   "text": "This",
+   "start": 25118,
+   "end": 25182,
+   "confidence": 0.95316666,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 25294,
+   "end": 25390,
+   "confidence": 0.9999764,
+   "speaker": "A"
+  },
+  {
+   "text": "a",
+   "start": 25439,
+   "end": 25519,
+   "confidence": 0.9999398,
+   "speaker": "A"
+  },
+  {
+   "text": "confidential",
+   "start": 25519,
+   "end": 26353,
+   "confidence": 0.99968326,
+   "speaker": "A"
+  },
+  {
+   "text": "matter",
+   "start": 26353,
+   "end": 26738,
+   "confidence": 0.9997844,
+   "speaker": "A"
+  },
+  {
+   "text": "between",
+   "start": 26738,
+   "end": 27235,
+   "confidence": 0.99786276,
+   "speaker": "A"
+  },
+  {
+   "text": "you",
+   "start": 27283,
+   "end": 27476,
+   "confidence": 0.9996611,
+   "speaker": "A"
+  },
+  {
+   "text": "and",
+   "start": 27620,
+   "end": 27845,
+   "confidence": 0.9935061,
+   "speaker": "A"
+  },
+  {
+   "text": "me!",
+   "start": 27845,
+   "end": 27941,
+   "confidence": 0.9229585,
+   "speaker": "A"
+  },
+  {
+   "text": "Your",
+   "start": 28342,
+   "end": 28535,
+   "confidence": 0.9906977,
+   "speaker": "A"
+  },
+  {
+   "text": "bank",
+   "start": 28567,
+   "end": 28888,
+   "confidence": 0.9995987,
+   "speaker": "A"
+  },
+  {
+   "text": "will",
+   "start": 28904,
+   "end": 29097,
+   "confidence": 0.9986137,
+   "speaker": "A"
+  },
+  {
+   "text": "not",
+   "start": 29145,
+   "end": 29466,
+   "confidence": 0.999241,
+   "speaker": "A"
+  },
+  {
+   "text": "help",
+   "start": 29466,
+   "end": 29932,
+   "confidence": 0.9999018,
+   "speaker": "A"
+  },
+  {
+   "text": "you!",
+   "start": 29932,
+   "end": 29964,
+   "confidence": 0.7378429,
+   "speaker": "A"
+  },
+  {
+   "text": "Stay",
+   "start": 30494,
+   "end": 30703,
+   "confidence": 0.8643772,
+   "speaker": "A"
+  },
+  {
+   "text": "on",
+   "start": 30816,
+   "end": 30912,
+   "confidence": 0.9999002,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 30912,
+   "end": 31073,
+   "confidence": 0.99993455,
+   "speaker": "A"
+  },
+  {
+   "text": "line",
+   "start": 31073,
+   "end": 31298,
+   "confidence": 0.9999584,
+   "speaker": "A"
+  },
+  {
+   "text": "while",
+   "start": 31394,
+   "end": 31667,
+   "confidence": 0.9994733,
+   "speaker": "A"
+  },
+  {
+   "text": "I",
+   "start": 31699,
+   "end": 31795,
+   "confidence": 0.99998,
+   "speaker": "A"
+  },
+  {
+   "text": "confirm",
+   "start": 31795,
+   "end": 32293,
+   "confidence": 0.9960724,
+   "speaker": "A"
+  },
+  {
+   "text": "the",
+   "start": 32358,
+   "end": 32502,
+   "confidence": 0.9597427,
+   "speaker": "A"
+  },
+  {
+   "text": "courier!",
+   "start": 32502,
+   "end": 33000,
+   "confidence": 0.8797056,
+   "speaker": "A"
+  },
+  {
+   "text": "Time",
+   "start": 33402,
+   "end": 33707,
+   "confidence": 0.82930535,
+   "speaker": "A"
+  },
+  {
+   "text": "is",
+   "start": 33707,
+   "end": 33803,
+   "confidence": 0.9980355,
+   "speaker": "A"
+  },
+  {
+   "text": "running",
+   "start": 33868,
+   "end": 34092,
+   "confidence": 0.9999734,
+   "speaker": "A"
+  },
+  {
+   "text": "out!",
+   "start": 34189,
+   "end": 34414,
+   "confidence": 0.994744,
+   "speaker": "A"
+  },
+  {
+   "text": "Just",
+   "start": 34912,
+   "end": 35121,
+   "confidence": 0.8157506,
+   "speaker": "A"
+  },
+  {
+   "text": "follow",
+   "start": 35233,
+   "end": 35586,
+   "confidence": 0.9999579,
+   "speaker": "A"
+  },
+  {
+   "text": "my",
+   "start": 35586,
+   "end": 35747,
+   "confidence": 0.9998777,
+   "speaker": "A"
+  },
+  {
+   "text": "instructions,",
+   "start": 35747,
+   "end": 36663,
+   "confidence": 0.728466,
+   "speaker": "A"
+  },
+  {
+   "text": "and",
+   "start": 36775,
+   "end": 36839,
+   "confidence": 0.9963278,
+   "speaker": "A"
+  },
+  {
+   "text": "this",
+   "start": 37016,
+   "end": 37144,
+   "confidence": 0.96768516,
+   "speaker": "A"
+  },
+  {
+   "text": "goes",
+   "start": 37241,
+   "end": 37418,
+   "confidence": 0.8222461,
+   "speaker": "A"
+  },
+  {
+   "text": "away",
+   "start": 37418,
+   "end": 37658,
+   "confidence": 0.9980313,
+   "speaker": "A"
+  },
+  {
+   "text": "today!",
+   "start": 37658,
+   "end": 38140,
+   "confidence": 0.98947895,
+   "speaker": "A"
+  }
+ ]
+}

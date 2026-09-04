@@ -1,0 +1,24 @@
+{
+  "id": "fixture-irs-impostor",
+  "status": "completed",
+  "text": "Hello, this is Officer Daniels with the Criminal Investigation Unit of the Internal Revenue Service. My badge number is 4471. We have issued an arrest warrant against you for tax fraud. If you do not pay the outstanding balance immediately, local police will come to detain you within the next two hours. Listen carefully. You must pay with gift cards or a wire transfer right now. Do not hang up. Do not tell anyone about this call. This is a confidential matter between you and me. Your bank will not help you. Stay on the line while I confirm the courier. Please, please I don't understand, why would there be a warrant? I pay my taxes every year. Ma'am, time is running out. The moment I hang up, officers are on the way. I'm scared, I don't know what to do. Just follow my instructions and this goes away today. Where do I even get gift cards?",
+  "language_code": "en",
+  "speech_model": "universal-3-5-pro",
+  "utterances": [
+    {"speaker": "A", "start": 0, "end": 12000, "text": "Hello, this is Officer Daniels with the Criminal Investigation Unit of the Internal Revenue Service. My badge number is 4471. We have issued an arrest warrant against you for tax fraud. If you do not pay the outstanding balance immediately, local police will come to detain you within the next two hours."},
+    {"speaker": "A", "start": 12000, "end": 20000, "text": "Listen carefully. You must pay with gift cards or a wire transfer right now. Do not hang up. Do not tell anyone about this call. This is a confidential matter between you and me. Your bank will not help you. Stay on the line while I confirm the courier."},
+    {"speaker": "B", "start": 20000, "end": 26000, "text": "Please, please I don't understand, why would there be a warrant? I pay my taxes every year."},
+    {"speaker": "A", "start": 26000, "end": 31000, "text": "Ma'am, time is running out. The moment I hang up, officers are on the way. Just follow my instructions and this goes away today."},
+    {"speaker": "B", "start": 31000, "end": 36000, "text": "I'm scared, I don't know what to do."},
+    {"speaker": "B", "start": 36000, "end": 40000, "text": "Where do I even get gift cards?"}
+  ],
+  "sentiment_analysis_results": [
+    {"start": 0, "end": 6000, "sentiment": "NEU", "text": "Hello, this is Officer Daniels with the Criminal Investigation Unit of the Internal Revenue Service."},
+    {"start": 6000, "end": 12000, "sentiment": "NEG", "text": "We have issued an arrest warrant against you for tax fraud."},
+    {"start": 12000, "end": 20000, "sentiment": "NEG", "text": "Do not hang up. Do not tell anyone about this call."},
+    {"start": 20000, "end": 26000, "sentiment": "NEG", "text": "Please, please I don't understand, why would there be a warrant? I pay my taxes every year."},
+    {"start": 26000, "end": 31000, "sentiment": "NEU", "text": "Ma'am, time is running out."},
+    {"start": 31000, "end": 36000, "sentiment": "NEG", "text": "I'm scared, I don't know what to do."},
+    {"start": 36000, "end": 40000, "sentiment": "NEG", "text": "Where do I even get gift cards?"}
+  ]
+}
