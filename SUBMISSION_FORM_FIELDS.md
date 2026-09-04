@@ -20,7 +20,8 @@ _Source: lablab.ai/ai-articles/hackathon-guidelines (fetched 2026-09-04). Judgin
 ## Step 3 — Technical
 - **GitHub repo:** https://github.com/TheGhostOfAnawanna/scam-shield
 - **Demo platform:** GitHub Pages (static hosted demo — no backend needed)
-- **Demo URL:** https://theghostofanawanna.github.io/scam-shield/
+- **Demo URL:** https://theghostofanawanna.github.io/scam-shield/ (now includes playable call audio — judges can hear the exact scam/legit inputs)
+- **Audio assets:** demo_scam_call.wav / demo_legit_call.wav also on the demo page
 - **Additional info for judges:** demo audio is fully synthetic (Piper TTS, no real victims' audio, disclosed); all reports on the demo page are real engine output; PII redaction enabled in pipeline; engine is stdlib-only Python.
 
 ## Judging angle (how we score on each criterion)
