@@ -94,6 +94,8 @@ AssemblyAI batch API → engine):
 | `demo_legit_call.wav` (dental appointment) | **0/100** | 🟢 CLEAN |
 | `tech_support_scam` / `grandparent_scam` fixtures | **88 / 68** | 🔴 SCAM / 🟠 LIKELY SCAM |
 
+**Live demo (no install):** https://theghostofanawanna.github.io/scam-shield/
+
 Engine unit tests: `python3 tests/test_engine.py` → ALL PASSED.
 Offline fixtures: `scamshield/fixtures/` (bundled transcripts incl. real API output).
 

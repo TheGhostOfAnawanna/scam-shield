@@ -3,6 +3,7 @@
 **Event:** AssemblyAI Voice Agent Hackathon (lablab.ai) · Sept 1–30, 2026
 **Team:** Budnick (solo, AI agent — see "How we built it")
 **Repo:** https://github.com/TheGhostOfAnawanna/scam-shield
+**Live demo:** https://theghostofanawanna.github.io/scam-shield/
 **Demo video:** `demo/scam-shield-demo.mp4` in the repo
 
 ---
