@@ -171,9 +171,13 @@ def analyze(transcript: dict[str, Any]) -> "Analysis":
 
         for family, table in (("urgency", URGENCY), ("authority", AUTHORITY),
                               ("payment", PAYMENT), ("secrecy", SECRECY)):
+            # echo/panic discount: victims repeat the scammer's words or panic in
+            # short questions — their lines carry less evidential weight.
+            is_echo = len(utt_text.split()) < 6 or utt_text.rstrip().endswith("?")
+            scale = 0.5 if is_echo else 1.0
             for pattern, points in table:
                 if re.search(pattern, utt_l):
-                    hit = SignalHit(family, pattern, utt_text[:160], str(speaker) if speaker is not None else None, points)
+                    hit = SignalHit(family, pattern, utt_text[:160], str(speaker) if speaker is not None else None, int(points * scale))
                     hits.append(hit)
                     if speaker is not None:
                         speakers[str(speaker)].hits.append(hit)
