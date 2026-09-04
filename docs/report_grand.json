@@ -1,0 +1,62 @@
+{
+ "title": "Grandparent emergency scam",
+ "subtitle": "'Grandma, it's me \u2014 I'm in jail'",
+ "score": 68,
+ "verdict": "LIKELY SCAM",
+ "scenario": "Grandparent / emergency scam",
+ "scenarioAdvice": "Hang up and call your family member directly on their usual number. Real emergencies survive a callback.",
+ "explanation": "This matches the known scam pattern 'Grandparent / emergency scam' (51% confidence). Main red flags: aggressive emotional tone and isolation tactics. Speaker A is running a pressure script (75/100). Do not act on anything this caller says. Hang up and verify independently.",
+ "speakers": [
+  {
+   "speaker": "A",
+   "score": 75,
+   "role": "suspected scammer",
+   "tactics": 3
+  },
+  {
+   "speaker": "B",
+   "score": 0,
+   "role": "likely victim/caller",
+   "tactics": 0
+  }
+ ],
+ "evidence": [
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "I was arrested last night and I need bail money right now. The lawyer says wire the money by courier before noon today, or I stay in jail over the weekend.",
+   "points": 18
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Two thousand dollars. Please don't tell mom and dad, they would kill me. Please keep this between us, grandma. I'm so scared and I can't talk long, an officer i",
+   "points": 12
+  },
+  {
+   "family": "secrecy",
+   "speaker": "A",
+   "quote": "Two thousand dollars. Please don't tell mom and dad, they would kill me. Please keep this between us, grandma. I'm so scared and I can't talk long, an officer i",
+   "points": 24
+  },
+  {
+   "family": "affect",
+   "speaker": "A",
+   "quote": "in big trouble",
+   "points": 20
+  },
+  {
+   "family": "affect",
+   "speaker": "B",
+   "quote": "oh no what happened",
+   "points": 20
+  },
+  {
+   "family": "affect",
+   "speaker": "A",
+   "quote": "arrested bail money right now",
+   "points": 20
+  }
+ ],
+ "duration": 38
+}

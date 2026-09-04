@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scam Shield 🛡️ — demo reports</title>
+<style>
+  :root { --bg:#101218; --card:#181b24; --fg:#e8ebf0; --dim:#8c919b;
+          --red:#ff5252; --orange:#ffa653; --green:#50dc78; --blue:#569cff; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--fg);
+         font:16px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         max-width:880px; margin:0 auto; padding:32px 20px 80px; }
+  header { text-align:center; margin-bottom:28px; }
+  h1 { font-size:2.1rem; letter-spacing:-0.5px; }
+  header p { color:var(--dim); margin-top:8px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  @media (max-width:700px){ .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border-radius:14px; padding:22px;
+          border:1px solid #262a36; cursor:pointer; transition:border-color .15s; }
+  .card:hover { border-color:var(--blue); }
+  .score { font-size:2.6rem; font-weight:800; }
+  .SCAM .score { color:var(--red); } .LIKELYSCAM .score { color:var(--orange); }
+  .CLEAN .score { color:var(--green); }
+  .verdict { font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:.85rem; }
+  .SCAM .verdict { color:var(--red); } .LIKELYSCAM .verdict { color:var(--orange); }
+  .CLEAN .verdict { color:var(--green); }
+  .card h2 { font-size:1.05rem; margin:10px 0 2px; }
+  .card .sub { color:var(--dim); font-size:.85rem; }
+  .detail { display:none; margin-top:18px; border-top:1px solid #262a36; padding-top:16px; }
+  .open .detail { display:block; }
+  .speakers { display:flex; flex-direction:column; gap:8px; margin:12px 0; }
+  .spk { display:flex; align-items:center; gap:10px; font-size:.9rem; }
+  .bar { flex:1; height:8px; background:#262a36; border-radius:4px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:var(--red); }
+  .spk small { color:var(--dim); width:9.5em; text-align:right; }
+  .ev { margin-top:10px; }
+  .ev li { list-style:none; padding:8px 10px; margin:6px 0; background:#20242f;
+           border-left:3px solid var(--blue); border-radius:0 8px 8px 0; font-size:.88rem; }
+  .ev .who { color:var(--dim); font-size:.75rem; }
+  .advice { background:#20242f; border-radius:10px; padding:12px 14px; font-size:.92rem; margin-top:12px; }
+  .advice b { color:var(--blue); }
+  footer { text-align:center; color:var(--dim); font-size:.85rem; margin-top:36px; }
+  footer a { color:var(--blue); }
+  .tag { display:inline-block; background:#20242f; border:1px solid #262a36; color:var(--dim);
+         border-radius:99px; padding:2px 12px; font-size:.75rem; margin:0 4px 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Scam Shield 🛡️</h1>
+  <p>An AI that listens to scam calls so you don't have to.</p>
+  <div>
+    <span class="tag">AssemblyAI universal model</span><span class="tag">diarization</span>
+    <span class="tag">sentiment</span><span class="tag">PII redaction</span>
+    <span class="tag">explainable scoring</span>
+  </div>
+  <p>Click a card to see the full verdict with evidence. Reports below are real
+     engine output — the two "recorded" ones went through the live AssemblyAI pipeline.</p>
+</header>
+<div class="grid" id="grid"></div>
+<footer>
+  Built by <b>Budnick</b> — an autonomous AI agent on a Raspberry Pi — for the
+  AssemblyAI Voice Agent Hackathon (Sept 2026). $0 budget, zero paid tooling.<br>
+  Source: <a href="https://github.com/TheGhostOfAnawanna/scam-shield">github.com/TheGhostOfAnawanna/scam-shield</a>
+</footer>
+<script>
+const REPORTS = [
+  {f:"report_scam.json"}, {f:"report_legit.json"},
+  {f:"report_tech.json"}, {f:"report_grand.json"}
+];
+const grid = document.getElementById("grid");
+REPORTS.forEach(r => {
+  fetch(r.f).then(x => x.json()).then(d => {
+    const cls = d.verdict.replace(" ", "");
+    const el = document.createElement("div");
+    el.className = "card " + cls;
+    el.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:baseline">
+        <div class="verdict">${d.verdict}</div><div class="score">${d.score}<small style="font-size:1rem;color:var(--dim)">/100</small></div>
+      </div>
+      <h2>${d.title}</h2><div class="sub">${d.subtitle}</div>
+      <div class="detail">
+        <div class="speakers">${d.speakers.map(s => `
+          <div class="spk"><b>Speaker ${s.speaker}</b>
+            <div class="bar"><i style="width:${s.score}%"></i></div>
+            <small>${s.score}/100 · ${s.role} · ${s.tactics} tactic${s.tactics===1?"":"s"}</small></div>`).join("")}
+        </div>
+        <p style="font-size:.92rem">${d.explanation}</p>
+        <div class="advice"><b>What to do:</b> ${d.scenarioAdvice || "No strong scam pressure patterns detected."}</div>
+        <ul class="ev">${d.evidence.map(e => `
+          <li><span class="who">[${e.family}]${e.speaker ? " speaker "+e.speaker : ""} · +${e.points}</span><br>“${e.quote}”</li>`).join("")}
+        </ul>
+      </div>`;
+    el.onclick = () => el.classList.toggle("open");
+    grid.appendChild(el);
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+ "title": "Dental appointment reminder",
+ "subtitle": "Everyday legit call \u2014 the false-alarm control",
+ "score": 0,
+ "verdict": "CLEAN",
+ "scenario": null,
+ "scenarioAdvice": "",
+ "explanation": "This call reads as routine: normal rhythm, no pressure tactics, no unusual payment demands.",
+ "speakers": [
+  {
+   "speaker": "A",
+   "score": 0,
+   "role": "likely victim/caller",
+   "tactics": 0
+  },
+  {
+   "speaker": "B",
+   "score": 0,
+   "role": "likely victim/caller",
+   "tactics": 0
+  }
+ ],
+ "evidence": [],
+ "duration": 21
+}

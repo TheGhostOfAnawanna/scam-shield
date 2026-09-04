@@ -1,0 +1,74 @@
+{
+ "title": "Tech-support impostor",
+ "subtitle": "'Your computer has been compromised'",
+ "score": 88,
+ "verdict": "SCAM",
+ "scenario": "Tech support scam",
+ "scenarioAdvice": "Hang up. Real tech companies never call you about viruses out of the blue. Never let a stranger remote-control your computer.",
+ "explanation": "Main red flags: fake authority and isolation tactics. Speaker A is running a pressure script (100/100). Do not pay anything and do not share codes, PINs or account numbers. Hang up.",
+ "speakers": [
+  {
+   "speaker": "A",
+   "score": 100,
+   "role": "suspected scammer",
+   "tactics": 8
+  },
+  {
+   "speaker": "B",
+   "score": 0,
+   "role": "likely victim/caller",
+   "tactics": 0
+  }
+ ],
+ "evidence": [
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Hello, this is Kevin from Microsoft technical support department. Our system detected a virus on your computer.",
+   "points": 12
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Hello, this is Kevin from Microsoft technical support department. Our system detected a virus on your computer.",
+   "points": 14
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "Yes, there is suspicious network activity from your device right now. Your computer has been compromised. You must grant me remote access immediately so I can r",
+   "points": 18
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Yes, there is suspicious network activity from your device right now. Your computer has been compromised. You must grant me remote access immediately so I can r",
+   "points": 18
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Yes, there is suspicious network activity from your device right now. Your computer has been compromised. You must grant me remote access immediately so I can r",
+   "points": 14
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "There is a one time repair fee of three hundred dollars payable immediately. I can only accept a bank transfer today.",
+   "points": 18
+  },
+  {
+   "family": "secrecy",
+   "speaker": "A",
+   "quote": "Do not contact Microsoft support directly, they will not know about this case. Please keep this between us. Stay on the line.",
+   "points": 24
+  },
+  {
+   "family": "secrecy",
+   "speaker": "A",
+   "quote": "Do not contact Microsoft support directly, they will not know about this case. Please keep this between us. Stay on the line.",
+   "points": 18
+  }
+ ],
+ "duration": 42
+}

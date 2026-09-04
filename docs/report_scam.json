@@ -1,0 +1,86 @@
+{
+ "title": "Fake IRS impostor call",
+ "subtitle": "Two-voice synthetic recording (Piper TTS), run through the live AssemblyAI pipeline",
+ "score": 90,
+ "verdict": "SCAM",
+ "scenario": "Government impostor",
+ "scenarioAdvice": "Hang up. Real government agencies never demand immediate payment by phone, never ask for gift cards or wire transfers, and never threaten arrest for not paying on the spot. Look up the agency's real number yourself and call it.",
+ "explanation": "This matches the known scam pattern 'Government impostor' (51% confidence). Main red flags: isolation tactics and time pressure. Speaker A is running a pressure script (100/100). Do not pay anything and do not share codes, PINs or account numbers. Hang up.",
+ "speakers": [
+  {
+   "speaker": "A",
+   "score": 100,
+   "role": "suspected scammer",
+   "tactics": 15
+  },
+  {
+   "speaker": "B",
+   "score": 24,
+   "role": "unknown",
+   "tactics": 1
+  }
+ ],
+ "evidence": [
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+   "points": 12
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+   "points": 14
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "Hello, this is Officer [PERSON_NAME] calling from the Internal Revenue Service Criminal Investigation Unit, badge number 4471.",
+   "points": 12
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+   "points": 22
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+   "points": 20
+  },
+  {
+   "family": "authority",
+   "speaker": "A",
+   "quote": "There is an arrest warrant out in your name for unpaid back taxes. Legal action will be taken within the next 2 hours. This is your last warning.",
+   "points": 24
+  },
+  {
+   "family": "authority",
+   "speaker": "B",
+   "quote": "An arrest warrant? What do I do?",
+   "points": 12
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+   "points": 18
+  },
+  {
+   "family": "urgency",
+   "speaker": "A",
+   "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+   "points": 20
+  },
+  {
+   "family": "payment",
+   "speaker": "A",
+   "quote": "Listen carefully. Do not hang up. Stay on the line until we resolve this. You must pay the tax fee of four thousand dollars right now, today only. I don't have ",
+   "points": 18
+  }
+ ],
+ "duration": 57
+}
