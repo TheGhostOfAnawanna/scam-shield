@@ -66,7 +66,8 @@
 </footer>
 <script>
 const REPORTS = [
-  {f:"report_scam.json"}, {f:"report_legit.json"},
+  {f:"report_scam.json", audio:"demo_scam_call.wav"},
+  {f:"report_legit.json", audio:"demo_legit_call.wav"},
   {f:"report_tech.json"}, {f:"report_grand.json"}
 ];
 const grid = document.getElementById("grid");
@@ -80,6 +81,8 @@ REPORTS.forEach(r => {
         <div class="verdict">${d.verdict}</div><div class="score">${d.score}<small style="font-size:1rem;color:var(--dim)">/100</small></div>
       </div>
       <h2>${d.title}</h2><div class="sub">${d.subtitle}</div>
+      ${r.audio ? `<audio controls preload="none" style="width:100%;margin-top:10px" src="${r.audio}"></audio>
+      <div class="sub" style="margin-top:4px">▶ the actual call input</div>` : ""}
       <div class="detail">
         <div class="speakers">${d.speakers.map(s => `
           <div class="spk"><b>Speaker ${s.speaker}</b>
